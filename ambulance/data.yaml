@@ -1,0 +1,18 @@
+# train: ../train/images
+# val: ../val/images
+# test: ../test/images
+
+train: ../ambulance/train/images
+val: ../ambulance/val/images
+test: ../ambulance/test/images
+
+
+nc: 1
+names: ['AMBULANCE']
+
+# roboflow:
+#   workspace: projects-oe7lz
+#   project: ambulance-detection-u4ao4-l2mat
+#   version: 1
+#   license: CC BY 4.0
+#   url: https://universe.roboflow.com/projects-oe7lz/ambulance-detection-u4ao4-l2mat/dataset/1
